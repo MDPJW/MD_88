@@ -3,10 +3,10 @@
  * 가짜뉴스 탐지 사용 네트워크 분석
  
 |저자|논문명|가짜뉴스 탐지에 사용된 네트워크 및 알고리즘|결과|
-|------|---|---|---|
+|------|---|---|----|
 |Monu Waskale, Prof.Pritesh Jain, 2019|A Review Rumors Detection on Twitter Using Machine Learning Techniques|GRU-2 와 Tanh-RNN 분류기 사용|GRU-2분류기 12시간 이내의 트위터에 대해 83.9%의 정확성
-|Cody Buntain, Jennifer Golbeck, 2018|66.93% and 70.28% in PHEME and CREDBANK|Automated system for distinguishing fake newsin famous Twitter threads.|
-|Kursuncu et al. , 2018|Analysis resulting in 73% F score. Supervised learning F score of 88.2 and ROC of 94.3.|Discussed Sentiment predictive analysis by time series in different domains.|
+|Cody Buntain, Jennifer Golbeck, 2018|Automatically Identifying Fake News in Popular Twitter Threads|제안하는 가짜뉴스 탐지 자동화 시스템|PHEME과 CREDBANK 데이터셋에 대해 66.93%와 70.28%의 정확성 
+|Kursuncu et al. , 2018|Predictive Analysis on Twitter:Techniques and Applications|지도학습|기존결과:73%, 지도학습 후 결과:88.2~94.3%|
 |Jiawei Zhang, Bowen Dong, Philip S. Yu, 2019|Comparing with existing systems, Bi-Class Inference Results in 14.5% higher and 40% higher in multi- Class Inference.|A deep diffusive network model to learn the depictions of news articles, subjects and creators.|
 |Ruchansky et al. , 2017|Positive correlation of 0.867 for Weibo, 0.631 for Twitter.|Propose the CSI model which consists of three modules.|
 |Monther Aldwairi, Ali Alwahedi|99.4% accuracy|Clickbait Detection using Logistic Classifier|
