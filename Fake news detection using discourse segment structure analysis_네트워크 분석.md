@@ -29,3 +29,12 @@
 |Hamid Karimi, Jiliang Tang ,2019|Learning Hierarchical Discourse-level Structure for Fake News Detection|담론구조분석법,분류기사용|정확성:82%|
 |Shuo Yang et al., 2019|Unsupervised Fake News Detection on Social Media: A Generative Approach|Gibbs-sampling method|LIAR 데이터셋 가짜뉴스탐지:75.9%|
 |Álvaro and Lara,2019|Fake news detection using Deep Learning|Bert,LSTM,CNN모델|텍스트 특성에 따른 훈련으로 93% 정확성|
+
+ * 논문에서의 점수 74.6을 나타내고 있지만 다른 논문과의 비해 정확도 우수 한지 알 수 없습니다.
+   WORD2VEC, ELU 함수를 사용하는 비교 논문 분석 필요
+   
+ # Fake News Detection Using Machine Learning approaches: A systematic Review 
+  
+ * Text, Multimedia, Image 상호과련성을 가지지지 않고 가짜 뉴스 판별을 실시합니다.
+ 
+  
