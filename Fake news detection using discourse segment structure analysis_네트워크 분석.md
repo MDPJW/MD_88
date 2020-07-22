@@ -2,9 +2,9 @@
  
  * 가짜뉴스 탐지 사용 네트워크 분석
  
-|저자|논문명|가짜뉴스 탐지에 사용된 네트워크|
-|------|---|---|
-|Monu Waskale, Prof.Pritesh Jain, 2019|GRU-2 can identify bits of gossip with exactness 83.9% for twitter within 12-hours.|Rational investigation of large portion of existing techniques identified from the earlier bits of gossip using GRU-2 and Tanh-RNN classifier for comparison.|
+|저자|논문명|가짜뉴스 탐지에 사용된 네트워크 및 알고리즘|결과|
+|------|---|---|---|
+|Monu Waskale, Prof.Pritesh Jain, 2019|A Review Rumors Detection on Twitter Using Machine Learning Techniques|GRU-2 와 Tanh-RNN 분류기 사용|GRU-2분류기 12시간 이내의 트위터에 대해 83.9%의 정확성
 |Cody Buntain, Jennifer Golbeck, 2018|66.93% and 70.28% in PHEME and CREDBANK|Automated system for distinguishing fake newsin famous Twitter threads.|
 |Kursuncu et al. , 2018|Analysis resulting in 73% F score. Supervised learning F score of 88.2 and ROC of 94.3.|Discussed Sentiment predictive analysis by time series in different domains.|
 |Jiawei Zhang, Bowen Dong, Philip S. Yu, 2019|Comparing with existing systems, Bi-Class Inference Results in 14.5% higher and 40% higher in multi- Class Inference.|A deep diffusive network model to learn the depictions of news articles, subjects and creators.|
