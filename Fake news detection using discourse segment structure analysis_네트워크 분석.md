@@ -12,21 +12,20 @@
 |Monther Aldwairi, Ali Alwahedi|Detecting Fake News in Social Media Networks|Logistic 분류기|Clickbait 탐지율:99.4%|
 |Traylor et al. ,2019|Classifying Fake News Articles Using Natural Language Processing to Identify In-Article Attribution as a Supervised LearningEstimator|ML 분류기|특징점이 하나인 가짜뉴스문서에 대한 탐지율:0.69% 분류오류:0.31%|
 |Oshikawa et al. ,2018|A Survey on Natural Language Processing for Fake News Detection|GCN 모델|GCN 모델 최대 탐지율:94.4%|
-|Gurav et al. ,2019|Series of methods accomplished by Machine Leaning|Pure NLP perspective towards false news detection|
-|Agarwalla et al. ,2019|Accuracy in Naïve Bayes classifier with lid stone smoothing is 83% and in Naïve Bayes (without lidstone smoothing) is 74%.|An algorithm have been explored that can distinguish the difference between the fake and true news|
-|Zellers et al. ,2019|Grover-Large yields 78% accuracy, 92% when dataset is increased.|Investigated the threats posed by adversaries seeking to spread disinformation and the possibilities of machine generated fake news.|
-|Sivasangar i V et al. ,2018|Precision: 0.86 F1-score: 0.86|Rumor Detection by lever maturing the setting going before a tweet with a consecutive classifier|
-|O'Brien et al. ,2018|Accuracy: 93.5% ± 0.2.|Deep neural networks to capture steady differences in the language of fake and real news: signatures of exaggeration and other forms of rhetoric| 
-|Shu et al. ,2017|Studying existing literature in two segments: detection and characterization.|Datasets, evaluation metrics, and promising future ways in fake news detection discussed.|
-|Silva et al. ,2019|ANN achieving 75% accuracy|An amalgamation of classic techniques with neural network|
-|Dong et al. ,2019|Detect fake news from PHEME datasets using labeled data and unlabeled data.|Deep semi-supervised learning model by constructing two-path CNN|
-|Yang et al. ,2019|88.063% accuracy|Soft labels are used to fine-tune NLI models, BERT, and the Decomposable Attention model. NLI models are trained independently and ensemble with a BERT model to define the soft labels.|
-|Monti et al.,2019|More than 93% accuracy achieved by automatic fake news detection model built on geometric deeplearning.|The underlying core algorithms allow for a fusion of dissimilar data such as content, profile, activity of a user, social graph and propagation pattern of news, which is achieved by generalizing CNN to graphs.|
-|Ajao et al.,2018|82% accuracy via both text and images by automatic identification of features within Twitter posts|A hybrid deep learning model of LSTM and CNN models is used.|
-|Thota et al. ,2018|94.21% accuracy. The Dense Neural Network beats existing model architectures by 2.5%.|A finely tuned TF-IDF Dense neural network architecture to predict the stance between a given pair of headline and article body.|
-|Helmstetter, Heiko Paulheim ,2018|F1 score of 0.9 achieved|Trustworthy or untrustworthy source are used to automaticallylabel the data during collection, and train a classifier on this dataset.|
-|Atodiresei et al. ,2018|Tweet score can be 1000, -500 or in [-50,100] User score can be in [0,12]|Credibility score fromhashtag sentiments, emoji sentiments, text sentiments and namedentity recognition. Higher the credibility score, higher the trust|
-|Hamid Karimi, Jiliang Tang ,2019|82% accuracy|Hierarchical Discourse level structural data analysis for fake newsdetection. A structure is trained on the dataset, quantifiable properties of which are used for classification process in the model.|
-|Shuo Yang et al., 2019|Graphical model is built taking into account reliability of the news and credibility score of the user. 75.9% max. Accuracy accomplished on LIAR dataset.|Unsupervised method is investigated. Opinion is extracted from hierarchy social engagement information acquired from social media users..Reality and credibility is considered by an efficient Gibbs-sampling method.|
-|Zhou et al.,2018|Models so far possess a greater possibility to misclassify fake news that tampers with facts as well as under-written real news articles|Simply looking into Linguistic aspects is not enough for fake news detection.|
-|Álvaro and Lara,2019|93% accuracy with superior metrics compared to other deep learning models|BERT, LSTM and Convolutional Neural Network models are trained based merely on textual features.|
+|Gurav et al. ,2019|Survey on Automated System for Fake News Detection using NLP & Machine Learning Approach|ML|ML 및 NLP(자연어처리) Survey|
+|Agarwalla et al. ,2019|Fake News Detection using Machine Learning and Natural Language Processing|Naive Bayes|Lid NBC:83%,Lid x NBC:74%|
+|Zellers et al. ,2019|Defending Against Neural Fake News||Grover-Large yields:78%, 데이터셋 많으면 92%로 증가|
+|Sivasangar i V et al. ,2018|A Modern approach to identify the fake news using machine learning|Consecutive 분류기|정밀도: 0.86 F1-score: 0.86|
+|O'Brien et al. ,2018|The Language of Fake News: Opening the Black-Box of Deep Learning Based Detectors|Deep neural network(심층신경망)|정확도: 93.5% ± 0.2.| 
+|Shu et al. ,2017|Fake News Detection on Social Media:A Data Mining Perspective||데이터셋,탐지에 대한 두가지 Segment 연구|
+|Silva et al. ,2019|Can Machines Learn to Detect Fake News? A Survey Focused on Social Media|신경망과 기존의 기술 융합|ANN 정확도 :75%|
+|Dong et al. ,2019|Deep Two-path Semi-supervised Learning for Fake News Detection|Deep semi-supervised learning,CNN|레이블 유/무에 따른 PHEME 데이터에서 가짜뉴스 감지|
+|Yang et al. ,2019|Fake News Detection as Natural Language Inference|NLI모델,BERT모델|NLI 모델 정확성:88.063%|
+|Monti et al.,2019|Fake News Detection on Social Media using Geometric Deep learning|Geometric DL,CNN|Geometric DL 정확성:93%|
+|Ajao et al.,2018|Fake News Identification on Twitter with Hybrid CNN and RNN Models|LSTM + CNN = Hybrid Model|Twitter게시물을 이미지와 텍스트로 감지 정확도:82%|
+|Thota et al. ,2018|Fake News Detection: A Deep Learning Approach|DNN(DENSE NEURAL NETWORK), TF-IDF|DDN 정확도:94.21%|
+|Helmstetter, Heiko Paulheim ,2018|Weakly Supervised Learning for Fake News||분류기를 데이터셋트에 대해 강화학습, F1 점수 : 0.9|
+|Atodiresei et al. ,2018|dentifying Fake News and Fake Users on Twitter||Twitter의 해시태그,이모티콘,텍스트 감정 및 이름인식도로 신뢰성 구분|
+|Hamid Karimi, Jiliang Tang ,2019|Learning Hierarchical Discourse-level Structure for Fake News Detection|담론구조분석법,분류기사용|정확성:82%|
+|Shuo Yang et al., 2019|Unsupervised Fake News Detection on Social Media: A Generative Approach|Gibbs-sampling method|LIAR 데이터셋 가짜뉴스탐지:75.9%|
+|Álvaro and Lara,2019|Fake news detection using Deep Learning|Bert,LSTM,CNN모델|텍스트 특성에 따른 훈련으로 93% 정확성|
