@@ -7,11 +7,11 @@
 |Monu Waskale, Prof.Pritesh Jain, 2019|A Review Rumors Detection on Twitter Using Machine Learning Techniques|GRU-2 와 Tanh-RNN 분류기 사용|GRU-2분류기 12시간 이내의 트위터에 대해 83.9%의 정확성
 |Cody Buntain, Jennifer Golbeck, 2018|Automatically Identifying Fake News in Popular Twitter Threads|제안하는 가짜뉴스 탐지 자동화 시스템|PHEME과 CREDBANK 데이터셋에 대해 66.93%와 70.28%의 정확성 
 |Kursuncu et al. , 2018|Predictive Analysis on Twitter:Techniques and Applications|지도학습|기존결과:73%, 지도학습 후 결과:88.2~94.3%|
-|Jiawei Zhang, Bowen Dong, Philip S. Yu, 2019|Comparing with existing systems, Bi-Class Inference Results in 14.5% higher and 40% higher in multi- Class Inference.|A deep diffusive network model to learn the depictions of news articles, subjects and creators.|
-|Ruchansky et al. , 2017|Positive correlation of 0.867 for Weibo, 0.631 for Twitter.|Propose the CSI model which consists of three modules.|
-|Monther Aldwairi, Ali Alwahedi|99.4% accuracy|Clickbait Detection using Logistic Classifier|
-|Traylor et al. ,2019|Classifier Accuracy: 0.69 Overall Classifier Error:0.31.|ML-classification for large fake newsdocuments with one extraction feature.|
-|Oshikawa et al. ,2018|Maximum accuracy in 94.4% using GCN model|Comparison of existing fake news detection models|
+|Jiawei Zhang, Bowen Dong, Philip S. Yu, 2019|FAKEDETECTOR: Effective Fake News Detection|심층확산 네트워크|FAKEDETECTOR는 BI-Class Inference:14.5%,Multi-Class Inference:40% 더 좋음|
+|Ruchansky et al. , 2017|CSI: A Hybrid Deep Model for Fake News Detection|제안하는 3가지 CSI모델|Weibo :0.867%, Twitter:0.631% 탐지 정확성|
+|Monther Aldwairi, Ali Alwahedi|Detecting Fake News in Social Media Networks|Logistic 분류기|Clickbait 탐지율:99.4%|
+|Traylor et al. ,2019|Classifying Fake News Articles Using Natural Language Processing to Identify In-Article Attribution as a Supervised LearningEstimator|ML 분류기|특징점이 하나인 가짜뉴스문서에 대한 탐지율:0.69% 분류오류:0.31%|
+|Oshikawa et al. ,2018|A Survey on Natural Language Processing for Fake News Detection|GCN 모델|GCN 모델 최대 탐지율:94.4%|
 |Gurav et al. ,2019|Series of methods accomplished by Machine Leaning|Pure NLP perspective towards false news detection|
 |Agarwalla et al. ,2019|Accuracy in Naïve Bayes classifier with lid stone smoothing is 83% and in Naïve Bayes (without lidstone smoothing) is 74%.|An algorithm have been explored that can distinguish the difference between the fake and true news|
 |Zellers et al. ,2019|Grover-Large yields 78% accuracy, 92% when dataset is increased.|Investigated the threats posed by adversaries seeking to spread disinformation and the possibilities of machine generated fake news.|
