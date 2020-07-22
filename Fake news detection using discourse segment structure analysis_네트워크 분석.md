@@ -1,4 +1,5 @@
- # Fake news detection using discourse segment structure analysis 네트워크 분석
+ # Fake news detection using discourse segment structure analysis 
+   가짜뉴스 탐지 사용 네트워크 분석
  
 |저자|논문명|가짜뉴스 탐지에 사용된 네트워크|
 |------|---|---|
